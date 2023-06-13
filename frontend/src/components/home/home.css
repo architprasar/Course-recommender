@@ -1,0 +1,54 @@
+.about {
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.about__name {
+  color: var(--clr-primary);
+}
+
+.about__role {
+  margin-top: 1.2em;
+}
+
+.about__desc {
+  font-size: 1rem;
+
+  max-width: 600px;
+}
+
+.about__desc,
+.about__contact {
+  margin-top: 2.4em;
+
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+}
+
+.about .btn--outline {
+  margin-right: 1em;
+}
+
+input {
+  border: 1px solid var(--clr-primary);
+  padding: 0.8em;
+  margin-right: 0.4em;
+  margin-top: 0.4em;
+}
+
+select {
+  border: 1px solid var(--clr-primary);
+  padding: 0.8em;
+  min-width: 12em;
+}
+
+
+
+@media (max-width: 600px) {
+  .app .about {
+    align-items: flex-start;
+    margin-top: 2em;
+  }
+}
