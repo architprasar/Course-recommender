@@ -28,8 +28,6 @@ The Course Recommendation System is a project that leverages Coursera course dat
 ```bash
 cd backend
 
-Use `pip` to install the required Python libraries:
-
 pip install -r requirements.txt
 
 cd ../frontend
@@ -39,10 +37,13 @@ npm install
 3. **Run the Application:**
 
 use the fronted folder to run the ReactJs frontend
+```bash
 npm start
+```
 use the backend folder to run Django backend
+```bash
 python manage.py runserver
-
+```
 
 4. **Access the System:**
 
