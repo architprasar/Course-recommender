@@ -24,3 +24,53 @@ The Course Recommendation System is a project that leverages Coursera course dat
 
 1. **Clone the Repository:**
 
+2. **Install Dependencies:**
+```bash
+cd backend
+
+Use `pip` to install the required Python libraries:
+
+pip install -r requirements.txt
+
+cd ../frontend
+
+npm install
+```
+3. **Run the Application:**
+
+use the fronted folder to run the ReactJs frontend
+npm start
+use the backend folder to run Django backend
+python manage.py runserver
+
+
+4. **Access the System:**
+
+Open your web browser and navigate to `http://localhost:5000` to use the Course Recommendation System.
+
+## Contributing
+
+Contributions are welcome! If you'd like to enhance the system or fix any issues, please follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch for your feature or bug fix.
+
+3. Make your changes and commit them.
+
+4. Push your changes to your forked repository.
+
+5. Create a pull request to merge your changes into the main project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+We would like to express our gratitude to Coursera for providing access to their course data, and to the OpenAI team for their GPT-3 model, which powers the personalized recommendations in this system.
+
+---
+
+Enjoy your learning journey with the Course Recommendation System! If you have any questions or feedback, please feel free to reach out to us.
+
