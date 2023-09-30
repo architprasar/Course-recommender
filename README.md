@@ -47,7 +47,7 @@ python manage.py runserver
 
 4. **Access the System:**
 
-Open your web browser and navigate to `http://localhost:5000` to use the Course Recommendation System.
+Open your web browser and navigate to `http://localhost` to use the Course Recommendation System.
 
 ## Contributing
 
